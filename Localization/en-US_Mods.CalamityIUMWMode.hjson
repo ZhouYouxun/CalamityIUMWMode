@@ -1,0 +1,36 @@
+Mods: {
+	CalamityIUMWMode: {
+		DifficultyUI: {
+			Name: IUMW
+			ShortDescription: Enables IUMW Mode.
+			ExpandedDescription: IUMW Mode adds prototype AI layers for selected Calamity bosses. Current implementation is a development shell with phase switching, motion overlays, and debug text.
+		}
+
+		Items: {
+			IUMWMatrixTablet: {
+				DisplayName: IUMW Matrix Tablet
+				Tooltip: Opens the IUMW matrix guide.
+			}
+		}
+
+		Projectiles.IUMWMatrixPanel.DisplayName: IUMW Matrix Panel
+
+		UI: {
+			GuideTitle: IUMW MATRIX
+			GuideSubtitle: Prototype boss AI control system
+			GuideBody: IUMW Mode is a Calamity difficulty module. Enable it from Calamity's difficulty indicator. While active, selected bosses receive an IUMW AI layer with staged phase changes, state cycling, motion pressure, and top-left debug output. Turning the mode off returns those bosses to their normal behavior.
+			BossListTitle: Tracked bosses
+			BossList: Yharon, The Old Duke, Polterghast, Storm Weaver, Ceaseless Void, Signus, Providence, Astrum Deus, The Plaguebringer Goliath, Astrum Aureus, Cryogen, Aquatic Scourge, The Hive Mind, The Perforators.
+			CloseHint: Use the tablet again or click outside this panel to close.
+		}
+	}
+}
+
+Items: {
+	IUMWMatrixTablet: {
+		DisplayName: I U M W Matrix Tablet
+		Tooltip: ""
+	}
+}
+
+Projectiles.IUMWMatrixPanel.DisplayName: I U M W Matrix Panel

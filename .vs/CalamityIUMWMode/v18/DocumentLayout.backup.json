@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityIUMWMode\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A6E2FC-DC85-1CD3-AA47-51B0E134603E}|CalamityIUMWMode.csproj|d:\\documents\\my games\\terraria\\tmodloader\\modsources\\calamityiumwmode\\boss_ai_analysis_zh.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{D9A6E2FC-DC85-1CD3-AA47-51B0E134603E}|CalamityIUMWMode.csproj|solutionrelative:boss_ai_analysis_zh.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A6E2FC-DC85-1CD3-AA47-51B0E134603E}|CalamityIUMWMode.csproj|d:\\documents\\my games\\terraria\\tmodloader\\modsources\\calamityiumwmode\\calamityiumwmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A6E2FC-DC85-1CD3-AA47-51B0E134603E}|CalamityIUMWMode.csproj|solutionrelative:calamityiumwmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BOSS_AI_ANALYSIS_ZH.md",
+              "DocumentMoniker": "D:\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityIUMWMode\\BOSS_AI_ANALYSIS_ZH.md",
+              "RelativeDocumentMoniker": "BOSS_AI_ANALYSIS_ZH.md",
+              "ToolTip": "D:\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityIUMWMode\\BOSS_AI_ANALYSIS_ZH.md",
+              "RelativeToolTip": "BOSS_AI_ANALYSIS_ZH.md",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-09T19:22:10.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalamityIUMWMode.cs",
+              "DocumentMoniker": "D:\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityIUMWMode\\CalamityIUMWMode.cs",
+              "RelativeDocumentMoniker": "CalamityIUMWMode.cs",
+              "ToolTip": "D:\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityIUMWMode\\CalamityIUMWMode.cs",
+              "RelativeToolTip": "CalamityIUMWMode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T19:22:02.795Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

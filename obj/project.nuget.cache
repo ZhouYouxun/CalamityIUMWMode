@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "nQE7r3UoMu8=",
+  "success": true,
+  "projectFilePath": "D:\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityIUMWMode\\CalamityIUMWMode.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wangk\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.28\\microsoft.windowsdesktop.app.ref.8.0.28.nupkg.sha512",
+    "C:\\Users\\wangk\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.28\\microsoft.netcore.app.ref.8.0.28.nupkg.sha512",
+    "C:\\Users\\wangk\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.28\\microsoft.aspnetcore.app.ref.8.0.28.nupkg.sha512"
+  ],
+  "logs": []
+}
