@@ -1,12 +1,13 @@
+D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityIUMWMode\bin\Debug\net8.0\CalamityIUMWMode.deps.json
+D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityIUMWMode\bin\Debug\net8.0\CalamityIUMWMode.dll
+D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityIUMWMode\bin\Debug\net8.0\CalamityIUMWMode.pdb
+D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityIUMWMode\bin\Debug\net8.0\CalamityMod.dll
 D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityIUMWMode\obj\Debug\net8.0\CalamityIUMWMode.csproj.AssemblyReference.cache
 D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityIUMWMode\obj\Debug\net8.0\CalamityIUMWMode.GeneratedMSBuildEditorConfig.editorconfig
 D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityIUMWMode\obj\Debug\net8.0\CalamityIUMWMode.AssemblyInfoInputs.cache
 D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityIUMWMode\obj\Debug\net8.0\CalamityIUMWMode.AssemblyInfo.cs
 D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityIUMWMode\obj\Debug\net8.0\CalamityIUMWMode.csproj.CoreCompileInputs.cache
-D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityIUMWMode\bin\Debug\net8.0\CalamityIUMWMode.deps.json
-D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityIUMWMode\bin\Debug\net8.0\CalamityIUMWMode.dll
-D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityIUMWMode\bin\Debug\net8.0\CalamityIUMWMode.pdb
-D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityIUMWMode\bin\Debug\net8.0\CalamityMod.dll
+D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityIUMWMode\obj\Debug\net8.0\CalamityIUMWMode.sourcelink.json
 D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityIUMWMode\obj\Debug\net8.0\Calamity.0F0C51D3.Up2Date
 D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityIUMWMode\obj\Debug\net8.0\CalamityIUMWMode.dll
 D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityIUMWMode\obj\Debug\net8.0\refint\CalamityIUMWMode.dll

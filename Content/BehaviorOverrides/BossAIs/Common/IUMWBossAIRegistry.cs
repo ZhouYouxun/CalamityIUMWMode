@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Terraria.ModLoader;
 using CalamityIUMWMode.Content.BehaviorOverrides.BossAIs.AquaticScourge;
 using CalamityIUMWMode.Content.BehaviorOverrides.BossAIs.AstrumAureus;
 using CalamityIUMWMode.Content.BehaviorOverrides.BossAIs.AstrumDeus;
@@ -31,7 +32,10 @@ namespace CalamityIUMWMode.Content.BehaviorOverrides.BossAIs.Common
             Register(new CeaselessVoidIUMWAI());
             Register(new SignusIUMWAI());
             Register(new ProvidenceIUMWAI());
-            Register(new AstrumDeusIUMWAI());
+            var astrumDeus = new AstrumDeusIUMWAI();
+            Register(astrumDeus);
+            aiByNPCType[ModContent.NPCType<CalamityMod.NPCs.AstrumDeus.AstrumDeusBody>()] = astrumDeus;
+            aiByNPCType[ModContent.NPCType<CalamityMod.NPCs.AstrumDeus.AstrumDeusTail>()] = astrumDeus;
             Register(new PlaguebringerGoliathIUMWAI());
             Register(new AstrumAureusIUMWAI());
             Register(new CryogenIUMWAI());

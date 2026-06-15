@@ -3,13 +3,13 @@ Mods: {
 		DifficultyUI: {
 			Name: IUMW
 			ShortDescription: 启用 IUMW 模式。
-			ExpandedDescription: IUMW 模式会为指定灾厄 Boss 添加原型 AI 层。当前是开发外壳，包含血量阶段切换、状态循环、轻量移动覆盖，以及左上角调试文字。
+			ExpandedDescription: IUMW 模式会为指定灾厄 Boss 添加原型 AI 层。当前包含血量阶段切换、主题攻击循环、移动压力、弹幕覆盖，以及左下角调试文字。
 		}
 
 		Items: {
 			IUMWMatrixTablet: {
 				DisplayName: IUMW 矩阵终端
-				Tooltip: 打开 IUMW 矩阵说明界面。
+				Tooltip: 左键开启/关闭 IUMW 模式。右键打开说明界面。
 			}
 		}
 
@@ -18,10 +18,14 @@ Mods: {
 		UI: {
 			GuideTitle: IUMW 矩阵
 			GuideSubtitle: Boss 原型 AI 控制系统
-			GuideBody: IUMW 模式是一个灾厄难度模块。请在灾厄的难度指示器中启用它。开启后，指定 Boss 会获得 IUMW AI 层，包含阶段切换、状态循环、移动压力和左上角调试文字。关闭模式后，这些 Boss 会回到原本行为。
+			GuideBody: IUMW 模式是一个灾厄难度模块。可以用灾厄难度指示器启用，也可以用矩阵终端左键切换。开启后，指定 Boss 会获得 IUMW AI 层，包含阶段切换、主题攻击循环、移动压力、弹幕覆盖和左下角调试文字。关闭模式后，这些 Boss 会回到原本行为。
 			BossListTitle: 当前跟踪 Boss
 			BossList: 重生之龙牙荣、老核弹硫海遗爵、恶鬼、风暴编织者、无尽虚空、神之使徒希格纳斯、亵渎天神普罗维登斯、星神游龙、瘟疫使者歌莉娅、白金星舰、极地冰灵、硫磺海遗爵、腐巢意志、血肉宿主。
 			CloseHint: 再次使用终端，或点击面板外关闭。
+			ModeEnabled: IUMW 模式已开启。
+			ModeDisabled: IUMW 模式已关闭。
+			StatusOn: 当前状态：开启
+			StatusOff: 当前状态：关闭
 		}
 	}
 }

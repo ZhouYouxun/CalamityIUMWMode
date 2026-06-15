@@ -48,10 +48,10 @@ namespace CalamityIUMWMode.Core.Systems
             currentInfo = new IUMWDebugInfo(
                 ai.BossName,
                 data.CurrentPhase,
-                ai.PhaseLifeRatios.Length + 1,
+                ai.MaxPhaseCount,
                 ai.PhaseName(data.CurrentPhase),
-                ai.StateName(data.AttackState),
-                data.AttackTimer,
+                ai.StateName(data),
+                data.PatternTimer,
                 npc.lifeMax <= 0 ? 1f : npc.life / (float)npc.lifeMax,
                 ai.DebugColor);
         }
@@ -71,14 +71,15 @@ namespace CalamityIUMWMode.Core.Systems
                 ? "IUMW DEBUG\nBoss: none\nMode: waiting for tracked boss"
                 : $"IUMW DEBUG\nBoss: {currentInfo.BossName}\nPhase: {currentInfo.Phase}/{currentInfo.MaxPhase} - {currentInfo.PhaseName}\nState: {currentInfo.StateName}\nTimer: {currentInfo.Timer}\nLife: {currentInfo.LifeRatio:P0}";
 
-            DrawLines(text, new Vector2(18f, 18f), currentInfo?.Color ?? new Color(88, 255, 211));
+            string[] lines = text.Split('\n');
+            Vector2 position = new(18f, Main.screenHeight - 18f - lines.Length * 18f);
+            DrawLines(lines, position, currentInfo?.Color ?? new Color(88, 255, 211));
             return true;
         }
 
-        private static void DrawLines(string text, Vector2 position, Color color)
+        private static void DrawLines(string[] lines, Vector2 position, Color color)
         {
             DynamicSpriteFont font = FontAssets.MouseText.Value;
-            string[] lines = text.Split('\n');
 
             for (int i = 0; i < lines.Length; i++)
             {
