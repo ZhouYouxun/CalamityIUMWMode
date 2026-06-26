@@ -13,6 +13,7 @@ using CalamityIUMWMode.Content.BehaviorOverrides.BossAIs.Polterghast;
 using CalamityIUMWMode.Content.BehaviorOverrides.BossAIs.Providence;
 using CalamityIUMWMode.Content.BehaviorOverrides.BossAIs.Signus;
 using CalamityIUMWMode.Content.BehaviorOverrides.BossAIs.StormWeaver;
+using CalamityIUMWMode.Content.BehaviorOverrides.BossAIs.WeaponAttacks;
 using CalamityIUMWMode.Content.BehaviorOverrides.BossAIs.Yharon;
 
 namespace CalamityIUMWMode.Content.BehaviorOverrides.BossAIs.Common
@@ -42,9 +43,20 @@ namespace CalamityIUMWMode.Content.BehaviorOverrides.BossAIs.Common
             Register(new AquaticScourgeIUMWAI());
             Register(new HiveMindIUMWAI());
             Register(new PerforatorsIUMWAI());
+
+            IUMWWeaponBossRegistry.Load();
+            RegisterWeaponIfAbsent("CalamitasClone");
+            RegisterWeaponIfAbsent("Leviathan");
+            RegisterWeaponIfAbsent("Anahita");
+            RegisterWeaponIfAbsent("RavagerBody");
+            RegisterWeaponIfAbsent("Dragonfolly");
         }
 
-        public static void Unload() => aiByNPCType = null;
+        public static void Unload()
+        {
+            IUMWWeaponBossRegistry.Unload();
+            aiByNPCType = null;
+        }
 
         public static bool TryGetAI(int npcType, out IUMWBossAI ai)
         {
@@ -55,6 +67,18 @@ namespace CalamityIUMWMode.Content.BehaviorOverrides.BossAIs.Common
         private static void Register(IUMWBossAI ai)
         {
             aiByNPCType[ai.NPCType] = ai;
+        }
+
+        private static void RegisterWeaponIfAbsent(string npcName)
+        {
+            if (!ModContent.TryFind("CalamityMod/" + npcName, out ModNPC npc))
+                return;
+
+            if (aiByNPCType.ContainsKey(npc.Type))
+                return;
+
+            if (IUMWWeaponBossRegistry.TryCreateAI(npcName, out IUMWBossAI ai))
+                aiByNPCType[ai.NPCType] = ai;
         }
     }
 }

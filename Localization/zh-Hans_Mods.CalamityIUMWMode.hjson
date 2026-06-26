@@ -27,6 +27,17 @@ Mods: {
 			StatusOn: 当前状态：开启
 			StatusOff: 当前状态：关闭
 		}
+
+		Configs: {
+			IUMWClientConfig: {
+				DisplayName: 客户端设置
+
+				ShowBossAIDebugText: {
+					Label: 显示 Boss AI 调试文字
+					Tooltip: IUMW 模式开启时，在左下角显示当前跟踪 Boss、阶段、招式、计时器和生命比例。
+				}
+			}
+		}
 	}
 }
 
@@ -37,4 +48,21 @@ Items: {
 	}
 }
 
-// Projectiles.IUMWMatrixPanel.DisplayName: I U M W Matrix Panel
+Projectiles: {
+	// IUMWMatrixPanel.DisplayName: I U M W Matrix Panel
+	// IUMWWeaponHostileBolt.DisplayName: I U M W Weapon Hostile Bolt
+	// IUMWWeaponLineHazard.DisplayName: I U M W Weapon Line Hazard
+	// IUMWWeaponSummonCore.DisplayName: I U M W Weapon Summon Core
+	// IUMWWeaponTelegraphProjectile.DisplayName: I U M W Weapon Telegraph Projectile
+}
+
+Configs: {
+	IUMWClientConfig: {
+		// DisplayName: I U M W Client Config
+
+		ShowBossAIDebugText: {
+			// Label: Show Boss A I Debug Text
+			// Tooltip: ""
+		}
+	}
+}

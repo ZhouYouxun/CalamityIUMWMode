@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityIUMWMode\\CalamityIUMWMode.csproj",
+      "projectUniqueName": "C:\\Users\\wangk\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityIUMWMode\\CalamityIUMWMode.csproj",
       "projectName": "CalamityIUMWMode",
-      "projectPath": "D:\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityIUMWMode\\CalamityIUMWMode.csproj",
+      "projectPath": "C:\\Users\\wangk\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityIUMWMode\\CalamityIUMWMode.csproj",
       "packagesPath": "C:\\Users\\wangk\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityIUMWMode\\obj\\",
+      "outputPath": "C:\\Users\\wangk\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityIUMWMode\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wangk\\AppData\\Roaming\\NuGet\\NuGet.Config",

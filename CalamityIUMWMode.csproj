@@ -12,8 +12,13 @@
 	<!-- References -->
 	<ItemGroup>
 		<Reference Include="CalamityMod">
-			<HintPath>..\InfernumMode\lib\CalamityMod.dll</HintPath>
+			<HintPath>..\..\ModReader\CalamityMod\CalamityMod.dll</HintPath>
 		</Reference>
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="大计划\A 冰灵\" />
+	  <Folder Include="大计划\B 歌莉娅\" />
+	  <Folder Include="大计划\武器列表\" />
 	</ItemGroup>
 
 </Project>

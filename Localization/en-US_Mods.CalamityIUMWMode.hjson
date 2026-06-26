@@ -27,6 +27,17 @@ Mods: {
 			StatusOn: Current state: ON
 			StatusOff: Current state: OFF
 		}
+
+		Configs: {
+			IUMWClientConfig: {
+				DisplayName: Client Settings
+
+				ShowBossAIDebugText: {
+					Label: Show boss AI debug text
+					Tooltip: Shows the current tracked boss, phase, attack, timer, and life in the bottom-left corner while IUMW Mode is active.
+				}
+			}
+		}
 	}
 }
 
@@ -37,4 +48,21 @@ Items: {
 	}
 }
 
-Projectiles.IUMWMatrixPanel.DisplayName: I U M W Matrix Panel
+Projectiles: {
+	IUMWMatrixPanel.DisplayName: I U M W Matrix Panel
+	IUMWWeaponHostileBolt.DisplayName: I U M W Weapon Hostile Bolt
+	IUMWWeaponLineHazard.DisplayName: I U M W Weapon Line Hazard
+	IUMWWeaponSummonCore.DisplayName: I U M W Weapon Summon Core
+	IUMWWeaponTelegraphProjectile.DisplayName: I U M W Weapon Telegraph Projectile
+}
+
+Configs: {
+	IUMWClientConfig: {
+		DisplayName: I U M W Client Config
+
+		ShowBossAIDebugText: {
+			Label: Show Boss A I Debug Text
+			Tooltip: ""
+		}
+	}
+}

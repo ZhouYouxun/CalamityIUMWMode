@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using CalamityIUMWMode.Content.BehaviorOverrides.BossAIs.Common;
+using CalamityIUMWMode.Core.Configs;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using ReLogic.Graphics;
@@ -64,7 +65,7 @@ namespace CalamityIUMWMode.Core.Systems
 
         private static bool DrawDebugText()
         {
-            if (!IUMWWorldSystem.IUMWModeEnabled || Main.gameMenu)
+            if (!IUMWWorldSystem.IUMWModeEnabled || Main.gameMenu || IUMWClientConfig.Instance?.ShowBossAIDebugText == false)
                 return true;
 
             string text = currentInfo is null
