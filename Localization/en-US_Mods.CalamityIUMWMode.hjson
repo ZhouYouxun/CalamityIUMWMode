@@ -11,9 +11,17 @@ Mods: {
 				DisplayName: IUMW Matrix Tablet
 				Tooltip: Left-click toggles IUMW Mode. Right-click opens the guide panel.
 			}
+
+			BossSummonerItem: {
+				DisplayName: Boss Summoner
+				Tooltip: Right-click to open the boss list. Click any boss icon to spawn it.
+			}
 		}
 
-		Projectiles.IUMWMatrixPanel.DisplayName: IUMW Matrix Panel
+		Projectiles: {
+			IUMWMatrixPanel.DisplayName: IUMW Matrix Panel
+			BossSummonerPanel.DisplayName: Boss Summoner Panel
+		}
 
 		UI: {
 			GuideTitle: IUMW MATRIX
@@ -46,6 +54,11 @@ Items: {
 		DisplayName: I U M W Matrix Tablet
 		Tooltip: ""
 	}
+
+	BossSummonerItem: {
+		DisplayName: Boss Summoner Item
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -54,6 +67,212 @@ Projectiles: {
 	IUMWWeaponLineHazard.DisplayName: I U M W Weapon Line Hazard
 	IUMWWeaponSummonCore.DisplayName: I U M W Weapon Summon Core
 	IUMWWeaponTelegraphProjectile.DisplayName: I U M W Weapon Telegraph Projectile
+	IUMWWeaponSpriteProjectile.DisplayName: I U M W Weapon Sprite Projectile
+	AquaticScourgeBarinauticalProjectile.DisplayName: Aquatic Scourge Barinautical Projectile
+	AquaticScourgeSubmarineShockerProjectile.DisplayName: Aquatic Scourge Submarine Shocker Projectile
+	AquaticScourgeDeepseaStaffProjectile.DisplayName: Aquatic Scourge Deepsea Staff Projectile
+	AquaticScourgeDownpourProjectile.DisplayName: Aquatic Scourge Downpour Projectile
+	AquaticScourgeFlakToxicannonProjectile.DisplayName: Aquatic Scourge Flak Toxicannon Projectile
+	AquaticScourgeScourgeoftheSeasProjectile.DisplayName: Aquatic Scourge Scourgeofthe Seas Projectile
+	AquaticScourgeCausticCroakerStaffProjectile.DisplayName: Aquatic Scourge Caustic Croaker Staff Projectile
+	AquaticScourgeSlitheringEelsProjectile.DisplayName: Aquatic Scourge Slithering Eels Projectile
+	AquaticScourgeSkyfinBombersProjectile.DisplayName: Aquatic Scourge Skyfin Bombers Projectile
+	AquaticScourgeSpentFuelContainerProjectile.DisplayName: Aquatic Scourge Spent Fuel Container Projectile
+	AquaticScourgeSulphurousGrabberProjectile.DisplayName: Aquatic Scourge Sulphurous Grabber Projectile
+	AstrumAureusAuroraBlazerProjectile.DisplayName: Astrum Aureus Aurora Blazer Projectile
+	AstrumAureusNebulashProjectile.DisplayName: Astrum Aureus Nebulash Projectile
+	AstrumAureusAlulaAustralisProjectile.DisplayName: Astrum Aureus Alula Australis Projectile
+	AstrumAureusBorealisBomberProjectile.DisplayName: Astrum Aureus Borealis Bomber Projectile
+	AstrumAureusAstralScytheProjectile.DisplayName: Astrum Aureus Astral Scythe Projectile
+	AstrumAureusAuroradicalThrowProjectile.DisplayName: Astrum Aureus Auroradical Throw Projectile
+	AstrumAureusStellarCannonProjectile.DisplayName: Astrum Aureus Stellar Cannon Projectile
+	AstrumAureusTitanArmProjectile.DisplayName: Astrum Aureus Titan Arm Projectile
+	AstrumAureusAstralachneaStaffProjectile.DisplayName: Astrum Aureus Astralachnea Staff Projectile
+	AstrumAureusStellarKnifeProjectile.DisplayName: Astrum Aureus Stellar Knife Projectile
+	AstrumAureusAbandonedSlimeStaffProjectile.DisplayName: Astrum Aureus Abandoned Slime Staff Projectile
+	AstrumAureusHivePodProjectile.DisplayName: Astrum Aureus Hive Pod Projectile
+	AstrumDeusStarSputterProjectile.DisplayName: Astrum Deus Star Sputter Projectile
+	AstrumDeusTheMicrowaveProjectile.DisplayName: Astrum Deus The Microwave Projectile
+	AstrumDeusStarShowerProjectile.DisplayName: Astrum Deus Star Shower Projectile
+	AstrumDeusStarspawnHelixStaffProjectile.DisplayName: Astrum Deus Starspawn Helix Staff Projectile
+	AstrumDeusRegulusRiotProjectile.DisplayName: Astrum Deus Regulus Riot Projectile
+	AstrumDeusAstralBlasterProjectile.DisplayName: Astrum Deus Astral Blaster Projectile
+	AstrumDeusAstralPikeProjectile.DisplayName: Astrum Deus Astral Pike Projectile
+	AstrumDeusAstralStaffProjectile.DisplayName: Astrum Deus Astral Staff Projectile
+	AstrumDeusRadiantStarProjectile.DisplayName: Astrum Deus Radiant Star Projectile
+	AstrumDeusTrueBiomeBladeProjectile.DisplayName: Astrum Deus True Biome Blade Projectile
+	CalamitasCloneOblivionProjectile.DisplayName: Calamitas Clone Oblivion Projectile
+	CalamitasCloneAnimosityProjectile.DisplayName: Calamitas Clone Animosity Projectile
+	CalamitasCloneLashesofChaosProjectile.DisplayName: Calamitas Clone Lashesof Chaos Projectile
+	CalamitasCloneEntropysVigilProjectile.DisplayName: Calamitas Clone Entropys Vigil Projectile
+	CalamitasCloneCrushsawCrasherProjectile.DisplayName: Calamitas Clone Crushsaw Crasher Projectile
+	CalamitasCloneHavocsBreathProjectile.DisplayName: Calamitas Clone Havocs Breath Projectile
+	CeaselessVoidMirrorBladeProjectile.DisplayName: Ceaseless Void Mirror Blade Projectile
+	CeaselessVoidVoidConcentrationStaffProjectile.DisplayName: Ceaseless Void Void Concentration Staff Projectile
+	CeaselessVoidDarkSparkProjectile.DisplayName: Ceaseless Void Dark Spark Projectile
+	CeaselessVoidEventHorizonProjectile.DisplayName: Ceaseless Void Event Horizon Projectile
+	CeaselessVoidMistlestormProjectile.DisplayName: Ceaseless Void Mistlestorm Projectile
+	CeaselessVoidOntologicalDespoilerProjectile.DisplayName: Ceaseless Void Ontological Despoiler Projectile
+	CeaselessVoidSealedSingularityProjectile.DisplayName: Ceaseless Void Sealed Singularity Projectile
+	CeaselessVoidTacticiansTrumpCardProjectile.DisplayName: Ceaseless Void Tacticians Trump Card Projectile
+	CeaselessVoidEternityProjectile.DisplayName: Ceaseless Void Eternity Projectile
+	CeaselessVoidPhantasmalFuryProjectile.DisplayName: Ceaseless Void Phantasmal Fury Projectile
+	CeaselessVoidFourSeasonsGalaxiaProjectile.DisplayName: Ceaseless Void Four Seasons Galaxia Projectile
+	CeaselessVoidRealityRuptureProjectile.DisplayName: Ceaseless Void Reality Rupture Projectile
+	CryogenAvalancheProjectile.DisplayName: Cryogen Avalanche Projectile
+	CryogenHoarfrostBowProjectile.DisplayName: Cryogen Hoarfrost Bow Projectile
+	CryogenIcebreakerProjectile.DisplayName: Cryogen Icebreaker Projectile
+	CryogenIcebreaker.DisplayName: Cryogen Icebreaker
+	CryogenSnowstormStaffProjectile.DisplayName: Cryogen Snowstorm Staff Projectile
+	CryogenSoulofCryogenProjectile.DisplayName: Cryogen Soulof Cryogen Projectile
+	CryogenCryoStoneProjectile.DisplayName: Cryogen Cryo Stone Projectile
+	CryogenFrostFlareProjectile.DisplayName: Cryogen Frost Flare Projectile
+	CryogenGlacialEmbraceProjectile.DisplayName: Cryogen Glacial Embrace Projectile
+	CryogenDarklightGreatswordProjectile.DisplayName: Cryogen Darklight Greatsword Projectile
+	CryogenStarnightLanceProjectile.DisplayName: Cryogen Starnight Lance Projectile
+	CryogenDarkechoGreatbowProjectile.DisplayName: Cryogen Darkecho Greatbow Projectile
+	CryogenShadecrystalBarrageProjectile.DisplayName: Cryogen Shadecrystal Barrage Projectile
+	CryogenShadecrystal.DisplayName: Cryogen Shadecrystal
+	CryogenShimmersparkProjectile.DisplayName: Cryogen Shimmerspark Projectile
+	CryogenCrystalPiercerProjectile.DisplayName: Cryogen Crystal Piercer Projectile
+	CryogenDaedalusGolemStaffProjectile.DisplayName: Cryogen Daedalus Golem Staff Projectile
+	DragonfollyGildedProboscisProjectile.DisplayName: Dragonfolly Gilded Proboscis Projectile
+	DragonfollyGoldenEagleProjectile.DisplayName: Dragonfolly Golden Eagle Projectile
+	DragonfollyRougeSlashProjectile.DisplayName: Dragonfolly Rouge Slash Projectile
+	LeviathanAnahitaGreentideProjectile.DisplayName: Leviathan Anahita Greentide Projectile
+	LeviathanAnahitaLeviatitanProjectile.DisplayName: Leviathan Anahita Leviatitan Projectile
+	LeviathanAnahitaAnahitasArpeggioProjectile.DisplayName: Leviathan Anahita Anahitas Arpeggio Projectile
+	LeviathanAnahitaAtlantisProjectile.DisplayName: Leviathan Anahita Atlantis Projectile
+	LeviathanAnahitaGastricBelcherStaffProjectile.DisplayName: Leviathan Anahita Gastric Belcher Staff Projectile
+	LeviathanAnahitaWhitewaterProjectile.DisplayName: Leviathan Anahita Whitewater Projectile
+	LeviathanAnahitaLeviathanTeethProjectile.DisplayName: Leviathan Anahita Leviathan Teeth Projectile
+	OldDukeFetidEmesisProjectile.DisplayName: Old Duke Fetid Emesis Projectile
+	OldDukeInsidiousImpalerProjectile.DisplayName: Old Duke Insidious Impaler Projectile
+	OldDukeSepticSkewerProjectile.DisplayName: Old Duke Septic Skewer Projectile
+	OldDukeCadaverousCarrionProjectile.DisplayName: Old Duke Cadaverous Carrion Projectile
+	OldDukeMutatedTruffleProjectile.DisplayName: Old Duke Mutated Truffle Projectile
+	OldDukeVitriolicViperProjectile.DisplayName: Old Duke Vitriolic Viper Projectile
+	OldDukeTheOldReaperProjectile.DisplayName: Old Duke The Old Reaper Projectile
+	OldDukeToxicantTwisterProjectile.DisplayName: Old Duke Toxicant Twister Projectile
+	OldDukeGammaHeartProjectile.DisplayName: Old Duke Gamma Heart Projectile
+	OldDukePhosphorescentGauntletProjectile.DisplayName: Old Duke Phosphorescent Gauntlet Projectile
+	OldDukeSulphuricAcidCannonProjectile.DisplayName: Old Duke Sulphuric Acid Cannon Projectile
+	OldDukeFlakToxicannonProjectile.DisplayName: Old Duke Flak Toxicannon Projectile
+	OldDukeSkyfinBombersProjectile.DisplayName: Old Duke Skyfin Bombers Projectile
+	OldDukeSlitheringEelsProjectile.DisplayName: Old Duke Slithering Eels Projectile
+	OldDukeSpentFuelContainerProjectile.DisplayName: Old Duke Spent Fuel Container Projectile
+	OldDukeSulphurousGrabberProjectile.DisplayName: Old Duke Sulphurous Grabber Projectile
+	PlaguebringerGoliathMalevolenceProjectile.DisplayName: Plaguebringer Goliath Malevolence Projectile
+	PlaguebringerGoliathPlagueStaffProjectile.DisplayName: Plaguebringer Goliath Plague Staff Projectile
+	PlaguebringerGoliathVirulenceProjectile.DisplayName: Plaguebringer Goliath Virulence Projectile
+	PlaguebringerGoliathFuelCellBundleProjectile.DisplayName: Plaguebringer Goliath Fuel Cell Bundle Projectile
+	PlaguebringerGoliathInfectedRemoteProjectile.DisplayName: Plaguebringer Goliath Infected Remote Projectile
+	PlaguebringerGoliathTheHiveProjectile.DisplayName: Plaguebringer Goliath The Hive Projectile
+	PlaguebringerGoliathTheSyringeProjectile.DisplayName: Plaguebringer Goliath The Syringe Projectile
+	PlaguebringerGoliathMalachiteProjectile.DisplayName: Plaguebringer Goliath Malachite Projectile
+	PlaguebringerGoliathPestilentDefilerProjectile.DisplayName: Plaguebringer Goliath Pestilent Defiler Projectile
+	PlaguebringerGoliathToxicHeartProjectile.DisplayName: Plaguebringer Goliath Toxic Heart Projectile
+	PlaguebringerGoliathBlightSpewerProjectile.DisplayName: Plaguebringer Goliath Blight Spewer Projectile
+	PlaguebringerGoliathPlagueCallerProjectile.DisplayName: Plaguebringer Goliath Plague Caller Projectile
+	PlaguebringerGoliathPandemicProjectile.DisplayName: Plaguebringer Goliath Pandemic Projectile
+	PlaguebringerGoliathPlagueTaintedSMGProjectile.DisplayName: Plaguebringer Goliath Plague Tainted S M G Projectile
+	PolterghastBansheeHookProjectile.DisplayName: Polterghast Banshee Hook Projectile
+	PolterghastDaemonsFlameProjectile.DisplayName: Polterghast Daemons Flame Projectile
+	PolterghastTerrorBladeProjectile.DisplayName: Polterghast Terror Blade Projectile
+	PolterghastFatesRevealProjectile.DisplayName: Polterghast Fates Reveal Projectile
+	PolterghastGhastlyVisageProjectile.DisplayName: Polterghast Ghastly Visage Projectile
+	PolterghastEtherealSubjugatorProjectile.DisplayName: Polterghast Ethereal Subjugator Projectile
+	PolterghastGalileoGladiusProjectile.DisplayName: Polterghast Galileo Gladius Projectile
+	PolterghastGhoulishGougerProjectile.DisplayName: Polterghast Ghoulish Gouger Projectile
+	PolterghastCrescentMoonProjectile.DisplayName: Polterghast Crescent Moon Projectile
+	PolterghastHalleysInfernoProjectile.DisplayName: Polterghast Halleys Inferno Projectile
+	PolterghastAlphaDraconisProjectile.DisplayName: Polterghast Alpha Draconis Projectile
+	PolterghastSiriusProjectile.DisplayName: Polterghast Sirius Projectile
+	PolterghastStratusSphereProjectile.DisplayName: Polterghast Stratus Sphere Projectile
+	PolterghastVegaProjectile.DisplayName: Polterghast Vega Projectile
+	PolterghastWarloksMoonFistProjectile.DisplayName: Polterghast Warloks Moon Fist Projectile
+	ProvidenceBlissfulBombardierProjectile.DisplayName: Providence Blissful Bombardier Projectile
+	ProvidenceBurningRevelationProjectile.DisplayName: Providence Burning Revelation Projectile
+	ProvidenceHolyColliderProjectile.DisplayName: Providence Holy Collider Projectile
+	ProvidenceTelluricGlareProjectile.DisplayName: Providence Telluric Glare Projectile
+	ProvidenceDazzlingStabberStaffProjectile.DisplayName: Providence Dazzling Stabber Staff Projectile
+	ProvidenceMoltenAmputatorProjectile.DisplayName: Providence Molten Amputator Projectile
+	ProvidencePurgeGuzzlerProjectile.DisplayName: Providence Purge Guzzler Projectile
+	ProvidenceAetherfluxCannonProjectile.DisplayName: Providence Aetherflux Cannon Projectile
+	ProvidenceAngelicShotgunProjectile.DisplayName: Providence Angelic Shotgun Projectile
+	ProvidencePristineFuryProjectile.DisplayName: Providence Pristine Fury Projectile
+	ProvidenceDarkSparkProjectile.DisplayName: Providence Dark Spark Projectile
+	ProvidenceGalactusBladeProjectile.DisplayName: Providence Galactus Blade Projectile
+	ProvidenceHandheldTankProjectile.DisplayName: Providence Handheld Tank Projectile
+	ProvidenceMirrorofKalandraProjectile.DisplayName: Providence Mirrorof Kalandra Projectile
+	ProvidenceMourningstarProjectile.DisplayName: Providence Mourningstar Projectile
+	ProvidenceShatteredDawnProjectile.DisplayName: Providence Shattered Dawn Projectile
+	ProvidenceSeekingScorcherProjectile.DisplayName: Providence Seeking Scorcher Projectile
+	ProvidenceTheMaelstromProjectile.DisplayName: Providence The Maelstrom Projectile
+	ProvidenceThePrinceProjectile.DisplayName: Providence The Prince Projectile
+	RavagerHematemesisProjectile.DisplayName: Ravager Hematemesis Projectile
+	RavagerRealmRavagerProjectile.DisplayName: Ravager Realm Ravager Projectile
+	RavagerUltimusCleaverProjectile.DisplayName: Ravager Ultimus Cleaver Projectile
+	RavagerCraniumSmasherProjectile.DisplayName: Ravager Cranium Smasher Projectile
+	RavagerSpikecragStaffProjectile.DisplayName: Ravager Spikecrag Staff Projectile
+	RavagerVesuviusProjectile.DisplayName: Ravager Vesuvius Projectile
+	RavagerCorpusAvertorProjectile.DisplayName: Ravager Corpus Avertor Projectile
+	RavagerFleshTotemProjectile.DisplayName: Ravager Flesh Totem Projectile
+	RavagerTheMutilatorProjectile.DisplayName: Ravager The Mutilator Projectile
+	RavagerArterialAssaultProjectile.DisplayName: Ravager Arterial Assault Projectile
+	RavagerClaretCannonProjectile.DisplayName: Ravager Claret Cannon Projectile
+	RavagerLaceratorProjectile.DisplayName: Ravager Lacerator Projectile
+	RavagerBloodBoilerProjectile.DisplayName: Ravager Blood Boiler Projectile
+	RavagerSanguineFlareProjectile.DisplayName: Ravager Sanguine Flare Projectile
+	RavagerVisceraProjectile.DisplayName: Ravager Viscera Projectile
+	RavagerBloodsoakedCrasherProjectile.DisplayName: Ravager Bloodsoaked Crasher Projectile
+	RavagerDragonbloodDisgorgerProjectile.DisplayName: Ravager Dragonblood Disgorger Projectile
+	SignusCosmicKunaiProjectile.DisplayName: Signus Cosmic Kunai Projectile
+	SignusCosmilampProjectile.DisplayName: Signus Cosmilamp Projectile
+	SignusAethersWhisperProjectile.DisplayName: Signus Aethers Whisper Projectile
+	SignusDeathsAscensionProjectile.DisplayName: Signus Deaths Ascension Projectile
+	SignusEmpyreanKnivesProjectile.DisplayName: Signus Empyrean Knives Projectile
+	SignusKingofConstellationsTenryuProjectile.DisplayName: Signus Kingof Constellations Tenryu Projectile
+	SignusMagneticMeltdownProjectile.DisplayName: Signus Magnetic Meltdown Projectile
+	SignusNadirProjectile.DisplayName: Signus Nadir Projectile
+	SignusTheSevensStrikerProjectile.DisplayName: Signus The Sevens Striker Projectile
+	SignusVenusianTridentProjectile.DisplayName: Signus Venusian Trident Projectile
+	SignusFourSeasonsGalaxiaProjectile.DisplayName: Signus Four Seasons Galaxia Projectile
+	SignusRealityRuptureProjectile.DisplayName: Signus Reality Rupture Projectile
+	StormWeaverSkytideDragoonProjectile.DisplayName: Storm Weaver Skytide Dragoon Projectile
+	StormWeaverTheStormProjectile.DisplayName: Storm Weaver The Storm Projectile
+	StormWeaverVolterionProjectile.DisplayName: Storm Weaver Volterion Projectile
+	StormWeaverAquasScepterProjectile.DisplayName: Storm Weaver Aquas Scepter Projectile
+	StormWeaverCorinthPrimeProjectile.DisplayName: Storm Weaver Corinth Prime Projectile
+	StormWeaverStellarTorusStaffProjectile.DisplayName: Storm Weaver Stellar Torus Staff Projectile
+	StormWeaverTeslastaffProjectile.DisplayName: Storm Weaver Teslastaff Projectile
+	StormWeaverThePackProjectile.DisplayName: Storm Weaver The Pack Projectile
+	StormWeaverTwistingThunderProjectile.DisplayName: Storm Weaver Twisting Thunder Projectile
+	StormWeaverSeadragonProjectile.DisplayName: Storm Weaver Seadragon Projectile
+	StormWeaverShadowboltStaffProjectile.DisplayName: Storm Weaver Shadowbolt Staff Projectile
+	StormWeaverFourSeasonsGalaxiaProjectile.DisplayName: Storm Weaver Four Seasons Galaxia Projectile
+	StormWeaverRealityRuptureProjectile.DisplayName: Storm Weaver Reality Rupture Projectile
+	BossSummonerPanel.DisplayName: Boss Summoner Panel
+	CryogenCrystalDart.DisplayName: Cryogen Crystal Dart
+	CryogenDaedalusLightning.DisplayName: Cryogen Daedalus Lightning
+	CryogenDaedalusPellet.DisplayName: Cryogen Daedalus Pellet
+	CryogenDarkBeam.DisplayName: Cryogen Dark Beam
+	CryogenDarkechoArrow.DisplayName: Cryogen Darkecho Arrow
+	CryogenFrostMist.DisplayName: Cryogen Frost Mist
+	CryogenGlbraceSpike.DisplayName: Cryogen Glbrace Spike
+	CryogenIceBomb.DisplayName: Cryogen Ice Bomb
+	CryogenIceShard.DisplayName: Cryogen Ice Shard
+	CryogenIceStar.DisplayName: Cryogen Ice Star
+	CryogenJavelin.DisplayName: Cryogen Javelin
+	CryogenJavelinShard.DisplayName: Cryogen Javelin Shard
+	CryogenLightBeam.DisplayName: Cryogen Light Beam
+	CryogenMistArrow.DisplayName: Cryogen Mist Arrow
+	CryogenShimmersparkYoyo.DisplayName: Cryogen Shimmerspark Yoyo
+	CryogenSnowflake.DisplayName: Cryogen Snowflake
+	CryogenSoulShard.DisplayName: Cryogen Soul Shard
+	CryogenStarnightBeam.DisplayName: Cryogen Starnight Beam
+	CryogenYoyoStar.DisplayName: Cryogen Yoyo Star
+	CryoStoneBarrier.DisplayName: Cryo Stone Barrier
 }
 
 Configs: {
@@ -66,3 +285,5 @@ Configs: {
 		}
 	}
 }
+
+NPCs.CryogenDaedalusMinion.DisplayName: Cryogen Daedalus Minion

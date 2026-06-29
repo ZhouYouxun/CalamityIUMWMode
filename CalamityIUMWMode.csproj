@@ -16,8 +16,12 @@
 		</Reference>
 	</ItemGroup>
 	<ItemGroup>
+	  <Folder Include="Content\BehaviorOverrides\" />
 	  <Folder Include="大计划\A 冰灵\" />
 	  <Folder Include="大计划\B 歌莉娅\" />
+	  <Folder Include="大计划\0627第1波更改\" />
+	  <Folder Include="大计划\0627第2波更改\" />
+	  <Folder Include="大计划\0628炼狱分析\" />
 	  <Folder Include="大计划\武器列表\" />
 	</ItemGroup>
 

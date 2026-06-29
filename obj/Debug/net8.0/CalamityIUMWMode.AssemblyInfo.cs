@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CalamityIUMWMode")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c74f19438d5e90c07afff6aa4658e1f0fe7110ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a87031c65e5753dc60c953e45a0976b39ea1428")]
 [assembly: System.Reflection.AssemblyProductAttribute("CalamityIUMWMode")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CalamityIUMWMode")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

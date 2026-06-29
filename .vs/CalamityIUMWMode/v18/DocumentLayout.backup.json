@@ -3,12 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\wangk\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityIUMWMode\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D9A6E2FC-DC85-1CD3-AA47-51B0E134603E}|CalamityIUMWMode.csproj|c:\\users\\wangk\\documents\\my games\\terraria\\tmodloader\\modsources\\calamityiumwmode\\calamityiumwmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9A6E2FC-DC85-1CD3-AA47-51B0E134603E}|CalamityIUMWMode.csproj|solutionrelative:calamityiumwmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wangk\\AppData\\Local\\SourceServer\\bd6326d117c8f4bba9a20dd7b12fb4604de1112e89581b8040c2daafd0133579\\Weapons\\A_Dev\\DesertEagle\\SlowDown\\DesertEagleSlowDownSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9A6E2FC-DC85-1CD3-AA47-51B0E134603E}|CalamityIUMWMode.csproj|c:\\users\\wangk\\documents\\my games\\terraria\\tmodloader\\modsources\\calamityiumwmode\\content\\behavioroverrides\\bossais\\astrumaureus\\astrumaureusiumwai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9A6E2FC-DC85-1CD3-AA47-51B0E134603E}|CalamityIUMWMode.csproj|solutionrelative:content\\behavioroverrides\\bossais\\astrumaureus\\astrumaureusiumwai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9A6E2FC-DC85-1CD3-AA47-51B0E134603E}|CalamityIUMWMode.csproj|c:\\users\\wangk\\documents\\my games\\terraria\\tmodloader\\modsources\\calamityiumwmode\\calamityiumwmode.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D9A6E2FC-DC85-1CD3-AA47-51B0E134603E}|CalamityIUMWMode.csproj|solutionrelative:calamityiumwmode.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A6E2FC-DC85-1CD3-AA47-51B0E134603E}|CalamityIUMWMode.csproj|c:\\users\\wangk\\documents\\my games\\terraria\\tmodloader\\modsources\\calamityiumwmode\\\u5927\u8BA1\u5212\\a \u6781\u5730\u51B0\u7075\\\u51B0\u7075\u7CFB\u6B66\u5668\u8D34\u56FE\u8DEF\u5F84.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{D9A6E2FC-DC85-1CD3-AA47-51B0E134603E}|CalamityIUMWMode.csproj|solutionrelative:\u5927\u8BA1\u5212\\a \u6781\u5730\u51B0\u7075\\\u51B0\u7075\u7CFB\u6B66\u5668\u8D34\u56FE\u8DEF\u5F84.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A6E2FC-DC85-1CD3-AA47-51B0E134603E}|CalamityIUMWMode.csproj|c:\\users\\wangk\\documents\\my games\\terraria\\tmodloader\\modsources\\calamityiumwmode\\calamityiumwmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A6E2FC-DC85-1CD3-AA47-51B0E134603E}|CalamityIUMWMode.csproj|solutionrelative:calamityiumwmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9A6E2FC-DC85-1CD3-AA47-51B0E134603E}|CalamityIUMWMode.csproj|c:\\users\\wangk\\documents\\my games\\terraria\\tmodloader\\modsources\\calamityiumwmode\\\u5927\u8BA1\u5212\\d \u5229\u7EF4\u5766\u548C\u963F\u7EB3\u897F\u5854\\\u5229\u7EF4\u5766\u4E0E\u963F\u7EB3\u897F\u5854\u7CFB\u6B66\u5668\u653B\u51FB\u65B9\u5F0F.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
@@ -30,24 +37,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AstrumAureusIUMWAI.cs",
-              "DocumentMoniker": "C:\\Users\\wangk\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityIUMWMode\\Content\\BehaviorOverrides\\BossAIs\\AstrumAureus\\AstrumAureusIUMWAI.cs",
-              "RelativeDocumentMoniker": "Content\\BehaviorOverrides\\BossAIs\\AstrumAureus\\AstrumAureusIUMWAI.cs",
-              "ToolTip": "C:\\Users\\wangk\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityIUMWMode\\Content\\BehaviorOverrides\\BossAIs\\AstrumAureus\\AstrumAureusIUMWAI.cs",
-              "RelativeToolTip": "Content\\BehaviorOverrides\\BossAIs\\AstrumAureus\\AstrumAureusIUMWAI.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAwC0AAAAOAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DesertEagleSlowDownSystem.cs",
+              "DocumentMoniker": "C:\\Users\\wangk\\AppData\\Local\\SourceServer\\bd6326d117c8f4bba9a20dd7b12fb4604de1112e89581b8040c2daafd0133579\\Weapons\\A_Dev\\DesertEagle\\SlowDown\\DesertEagleSlowDownSystem.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\bd6326d117c8f4bba9a20dd7b12fb4604de1112e89581b8040c2daafd0133579\\Weapons\\A_Dev\\DesertEagle\\SlowDown\\DesertEagleSlowDownSystem.cs",
+              "ToolTip": "C:\\Users\\wangk\\AppData\\Local\\SourceServer\\bd6326d117c8f4bba9a20dd7b12fb4604de1112e89581b8040c2daafd0133579\\Weapons\\A_Dev\\DesertEagle\\SlowDown\\DesertEagleSlowDownSystem.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\bd6326d117c8f4bba9a20dd7b12fb4604de1112e89581b8040c2daafd0133579\\Weapons\\A_Dev\\DesertEagle\\SlowDown\\DesertEagleSlowDownSystem.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAYwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T22:39:03.99Z",
+              "WhenOpened": "2026-06-27T23:23:58.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalamityIUMWMode",
+              "DocumentMoniker": "C:\\Users\\wangk\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityIUMWMode\\CalamityIUMWMode.csproj",
+              "RelativeDocumentMoniker": "CalamityIUMWMode.csproj",
+              "ToolTip": "C:\\Users\\wangk\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityIUMWMode\\CalamityIUMWMode.csproj*",
+              "RelativeToolTip": "CalamityIUMWMode.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-27T22:33:38.919Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "\u51B0\u7075\u7CFB\u6B66\u5668\u8D34\u56FE\u8DEF\u5F84.md",
+              "DocumentMoniker": "C:\\Users\\wangk\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityIUMWMode\\\u5927\u8BA1\u5212\\A \u6781\u5730\u51B0\u7075\\\u51B0\u7075\u7CFB\u6B66\u5668\u8D34\u56FE\u8DEF\u5F84.md",
+              "RelativeDocumentMoniker": "\u5927\u8BA1\u5212\\A \u6781\u5730\u51B0\u7075\\\u51B0\u7075\u7CFB\u6B66\u5668\u8D34\u56FE\u8DEF\u5F84.md",
+              "ToolTip": "C:\\Users\\wangk\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityIUMWMode\\\u5927\u8BA1\u5212\\A \u6781\u5730\u51B0\u7075\\\u51B0\u7075\u7CFB\u6B66\u5668\u8D34\u56FE\u8DEF\u5F84.md",
+              "RelativeToolTip": "\u5927\u8BA1\u5212\\A \u6781\u5730\u51B0\u7075\\\u51B0\u7075\u7CFB\u6B66\u5668\u8D34\u56FE\u8DEF\u5F84.md",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-26T23:05:27.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "\u5229\u7EF4\u5766\u4E0E\u963F\u7EB3\u897F\u5854\u7CFB\u6B66\u5668\u653B\u51FB\u65B9\u5F0F.md",
               "DocumentMoniker": "C:\\Users\\wangk\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityIUMWMode\\\u5927\u8BA1\u5212\\D \u5229\u7EF4\u5766\u548C\u963F\u7EB3\u897F\u5854\\\u5229\u7EF4\u5766\u4E0E\u963F\u7EB3\u897F\u5854\u7CFB\u6B66\u5668\u653B\u51FB\u65B9\u5F0F.md",
               "RelativeDocumentMoniker": "\u5927\u8BA1\u5212\\D \u5229\u7EF4\u5766\u548C\u963F\u7EB3\u897F\u5854\\\u5229\u7EF4\u5766\u4E0E\u963F\u7EB3\u897F\u5854\u7CFB\u6B66\u5668\u653B\u51FB\u65B9\u5F0F.md",
@@ -55,12 +88,11 @@
               "RelativeToolTip": "\u5927\u8BA1\u5212\\D \u5229\u7EF4\u5766\u548C\u963F\u7EB3\u897F\u5854\\\u5229\u7EF4\u5766\u4E0E\u963F\u7EB3\u897F\u5854\u7CFB\u6B66\u5668\u653B\u51FB\u65B9\u5F0F.md",
               "ViewState": "AgIAAA8AAAAAAAAAAAAswBAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-06-26T21:59:33.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T21:59:33.911Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CalamityIUMWMode.cs",
               "DocumentMoniker": "C:\\Users\\wangk\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityIUMWMode\\CalamityIUMWMode.cs",
               "RelativeDocumentMoniker": "CalamityIUMWMode.cs",
@@ -68,12 +100,11 @@
               "RelativeToolTip": "CalamityIUMWMode.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T19:22:02.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-09T19:22:02.795Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "\u5229\u7EF4\u5766\u548C\u963F\u7EB3\u897F\u5854AI\u903B\u8F91\u603B\u7ED3.md",
               "DocumentMoniker": "C:\\Users\\wangk\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityIUMWMode\\\u5927\u8BA1\u5212\\D \u5229\u7EF4\u5766\u548C\u963F\u7EB3\u897F\u5854\\\u5229\u7EF4\u5766\u548C\u963F\u7EB3\u897F\u5854AI\u903B\u8F91\u603B\u7ED3.md",
               "RelativeDocumentMoniker": "\u5927\u8BA1\u5212\\D \u5229\u7EF4\u5766\u548C\u963F\u7EB3\u897F\u5854\\\u5229\u7EF4\u5766\u548C\u963F\u7EB3\u897F\u5854AI\u903B\u8F91\u603B\u7ED3.md",
@@ -81,12 +112,11 @@
               "RelativeToolTip": "\u5927\u8BA1\u5212\\D \u5229\u7EF4\u5766\u548C\u963F\u7EB3\u897F\u5854\\\u5229\u7EF4\u5766\u548C\u963F\u7EB3\u897F\u5854AI\u903B\u8F91\u603B\u7ED3.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-06-26T21:59:31.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T21:59:31.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "BOSS_AI_ANALYSIS_ZH.md",
               "DocumentMoniker": "C:\\Users\\wangk\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityIUMWMode\\BOSS_AI_ANALYSIS_ZH.md",
               "RelativeDocumentMoniker": "BOSS_AI_ANALYSIS_ZH.md",
@@ -94,8 +124,7 @@
               "RelativeToolTip": "BOSS_AI_ANALYSIS_ZH.md",
               "ViewState": "AgIAAGwAAAAAAAAAAAAAAHUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-06-09T19:22:10.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-09T19:22:10.119Z"
             }
           ]
         }
